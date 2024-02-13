@@ -1,0 +1,35 @@
+{
+  "name": "nextguys--private-transitive-dependency-project",
+  "author": {
+    "name": "linusha"
+  },
+  "description": "",
+  "scripts": {
+    "build": "rm -rf build/* && export MINIFY='' && ./tools/build.sh",
+    "build-minified": "rm -rf build/* && export MINIFY=true && ./tools/build.sh"
+  },
+  "dependencies": {
+    "@rollup/plugin-json": "4.1.0",
+    "rollup": "^2.70.2",
+    "rollup-plugin-export-default": "1.4.0",
+    "rollup-plugin-polyfill-node": "0.9.0"
+  },
+  "lively": {
+    "projectDependencies": [],
+    "boundLivelyVersion": "0b51bf0cffa713c3286b065bad85100162180497",
+    "repositoryIsPrivate": true,
+    "repoBelongsToOrg": true,
+    "testActionEnabled": true,
+    "buildActionEnabled": false,
+    "testOnPush": true,
+    "buildOnPush": false,
+    "deployOnPush": false,
+    "canUsePages": false,
+    "deployActionEnabled": false
+  },
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nextguys/private-transitive-dependency-project"
+  }
+}
