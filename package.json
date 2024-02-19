@@ -17,7 +17,7 @@
   "lively": {
     "projectDependencies": [],
     "boundLivelyVersion": "91b1c2d9745ce849fc4da1a3c0771cc2b395012a",
-    "repositoryIsPrivate": true,
+    "repositoryIsPrivate": false,
     "repoBelongsToOrg": true,
     "testActionEnabled": true,
     "buildActionEnabled": false,
@@ -27,7 +27,7 @@
     "canUsePages": false,
     "deployActionEnabled": false
   },
-  "version": "0.1.3",
+  "version": "0.1.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/nextguys/private-transitive-dependency-project"
